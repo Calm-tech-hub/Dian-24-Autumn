@@ -89,7 +89,7 @@
 
    同时，根据计算得出的梯度结果可以看出，梯度随时间`t`呈指数变化，这样就容易出现梯度消失或者梯度爆炸的问题，解决方案在上文提及，这里不再赘述。
 
-- 通过代码对`RNN`网络进行实现（详情见[dian秋招第一题.ipynb](https://github.com/Calm-tech-hub/Dian-24-autumn-recruitment/blob/master/dian%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%B8%80%E9%A2%98.ipynb)）
+- 通过代码对`RNN`网络进行实现（详情见[Dian秋招第一题.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%B8%80%E9%A2%98.ipynb)）
 
    1.定义`RNN`的类：
 
@@ -129,7 +129,7 @@
   
   1.绝对位置编码：顾名思义，在绝对位置编码的公式定义中与自身在所给数据中有关的变量有两个：一个是`pos`,一个是`i`,其中`pos`指的是对应的第几号样本，`i`反映的是该变量在该样本中的第几个特征,而且在公式中并未涉及其他变量的位置，所以仅由自身在样本整体中的位置决定，故称为绝对位置编码，最终将公式的结果在附加到原来的特征信息上即可
 
-  2.代码实现：通过定义一个`AbsPosEncoding`的类，在里面通过`pytorch`自带的数学函数实现上述数学公式，并用一个随机矩阵进行测试
+  2.代码实现：通过定义一个`AbsPosEncoding`的类，在里面通过`pytorch`自带的数学函数实现上述数学公式，并用一个随机矩阵进行测试，详情见[Dian秋招第二题.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%BA%8C%E9%A2%98.ipynb)
 
   3.旋转位置编码：这个相较于绝对位置编码要复杂的多，所以先从简单的二维情况开始考虑，首先从结果出发，将其与绝对位置编码进行比较，它在结果中引入`（m-n）`的项，以及`theta`中有`i`的元素，所以里面含有绝对位置信息与相对位置信息，下面将二维扩展至多维，如下图所示：
   
@@ -175,7 +175,7 @@
 
   5.将结果通过一个`Linear`层进行输出
 
-- 代码实现部分：（详情见[dian秋招第三题.ipynb](https://github.com/Calm-tech-hub/Dian-24-autumn-recruitment/blob/master/dain%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%B8%89%E9%A2%98.ipynb)）
+- 代码实现部分：（详情见[Dian秋招第三题.ipynb]((https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%B8%89%E9%A2%98.ipynb))）
 
   1.根据定义，定义一个`MultiHeadAttention`的类
 
@@ -232,7 +232,8 @@
   最后第三项通过在t=1的时间步，不添加噪声，也去掉了。在一步步推导之后，得到一个关于噪音的`MSE`函数,作为最终的损失函数。
 
 # Day 5 & Day 6
-- `DDPM`的代码实现
+- `DDPM`的代码实现,详情见[Dian秋招附加题_1.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E9%99%84%E5%8A%A0%E9%A2%98%E2%80%94%E2%80%94RNN.ipynb))
+以及[Dian秋招附加题_1.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E9%99%84%E5%8A%A0%E9%A2%98%E2%80%94%E2%80%94Unet.ipynb)
 
   代码的初步思路为：
 
