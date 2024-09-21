@@ -1,3 +1,6 @@
+# Calm
+序言：首先非常感谢Dian团队能够提供这次参与招新的机会，在为期一周的学习、实践、遇挫、debug、优化等等的过程中，我能够清晰的感到我自身学习能力的提升，从拿到题目时的迷茫，到一步步学习相关知识，运用所掌握工具搭建网络，最终实现一个个小目标。虽然对于某些原理我仍然处于使用“黑匣子”的状态，但在日后的学习中，我将逐步向挖掘其中更深层的原理。
+
 # Day1
 ## 1.1 题目整体理解
 本次考核共有四大题，其中有一个附加题
@@ -175,7 +178,7 @@
 
   5.将结果通过一个`Linear`层进行输出
 
-- 代码实现部分：（详情见[Dian秋招第三题.ipynb]((https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%B8%89%E9%A2%98.ipynb))）
+- 代码实现部分：（详情见[Dian秋招第三题.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E7%AC%AC%E4%B8%89%E9%A2%98.ipynb)）
 
   1.根据定义，定义一个`MultiHeadAttention`的类
 
@@ -232,8 +235,8 @@
   最后第三项通过在t=1的时间步，不添加噪声，也去掉了。在一步步推导之后，得到一个关于噪音的`MSE`函数,作为最终的损失函数。
 
 # Day 5 & Day 6
-- `DDPM`的代码实现,详情见[Dian秋招附加题_1.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E9%99%84%E5%8A%A0%E9%A2%98%E2%80%94%E2%80%94RNN.ipynb))
-以及[Dian秋招附加题_1.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E9%99%84%E5%8A%A0%E9%A2%98%E2%80%94%E2%80%94Unet.ipynb)
+- `DDPM`的代码实现,详情见[Dian秋招附加题_1.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E9%99%84%E5%8A%A0%E9%A2%98%E2%80%94%E2%80%94RNN.ipynb)
+以及[Dian秋招附加题_2.ipynb](https://github.com/Calm-tech-hub/Dian-24-Autumn/blob/master/Dian%E7%A7%8B%E6%8B%9B%E9%99%84%E5%8A%A0%E9%A2%98%E2%80%94%E2%80%94Unet.ipynb)
 
   代码的初步思路为：
 
