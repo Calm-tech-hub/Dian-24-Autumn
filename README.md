@@ -289,7 +289,7 @@
 
   添加残差连接
 
-  首先对`Fashion_Minist`数据集进行训练，训练前后对比结果如下：
+  首先对`Fashion_Minist`数据集进行训练，训练一次与训练多次的对比结果如下：
 
   ![DDPM1](https://github.com/user-attachments/assets/f826be64-0d62-4bb0-a891-36bb599f6130)
 
